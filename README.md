@@ -7,7 +7,7 @@ The objective of the project is to predict whether a startup which is currently 
 ## Data:
 
 ## Link to raw data(Huge JSON and Excel fiel):
-        https://drive.google.com/file/d/19v41j2P14oSwv39DT5Oy4wPf5ZG2zigw/view?usp=sharing
+        https://drive.google.com/file/d/1tWYkHYHm2HoiCajZ49Cs1K7sklWTdAbV/view
 
 ### Summary:
 
