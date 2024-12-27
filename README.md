@@ -1,8 +1,7 @@
-Our aim to understand the financial conditions of company fundraising goals.
-# Topic: Building-Machine-Learning-Pipeline-on-Startup-Acquisition
+# Topic: Startup Operational Status prediction using Machine learning
 
 # Objective:
-The objective of the project is to predict whether a startup which is currently Operating, IPO, Acquired, or closed.This problem will be solved through a Supervised Machine Learning approach by training a model based on the history of startups which were either acquired or closed.
+The objective of this project is to predict the current status of a startup—whether it is Operating, IPO, Acquired, or Closed. This problem will be addressed using a Supervised Machine Learning approach by training models based on the historical data of startups across all four categories.
 
 ## Data:
 
@@ -15,10 +14,24 @@ The data contains industry trends, investment insights and individual company in
 
 ### Data types:
 
-There are 44 columns out of which will be used as features. The rest provide more information about the data, but will not be used for model training (like normalized name, entity id, short description etc.)
+There are 196553 lines and  44 columns out of which will be used as features. The rest provide more information about the data, but will not be used for model training (like normalized name, entity id, short description etc.)
+
+## Data Preprocessing
+
+### A. Data Cleaning
+    1. Delete irrelevant & redundant information.
+    2. Remove noise or unreliable data (missing values and outliers).
+
+### B. Date variables Transformation
+    It can be divided into two successive phases.
+    1. Changes in original variables
+    2. Create new variables from original variables
+
+### C. Remaining missing values handling
+
 
 ## Data Cleaning:
-In data cleaning we are will remove the inappropriate & unncessary information from raw data(main data).Hence, after which we’ll perform data cleaning involving following steps:
+In data cleaning I removed the inappropriate & unncessary information from raw data(main data), after which I performed data cleaning involving following steps:
 * Checking the percentage of NaN(null values) values present in each feature
 * Removing duplicates
 * Dropping columns which have NaN values.
