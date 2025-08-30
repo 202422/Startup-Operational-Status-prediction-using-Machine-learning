@@ -7,6 +7,11 @@ The objective of this project is to predict the current status of a startup—wh
 
 The data contains industry trends, investment insights and individual company information. Since the data was acquired on a trial basis, it only contains information about companies. After training the model, we predict whether startups still operating, IPO, acquired, or closed.
 
+![](assets/front_end1.png)   
+
+
+![](assets/front_end2.png)
+
 # Data:
 
 ### Link to raw data(Huge JSON and Excel fiel):
