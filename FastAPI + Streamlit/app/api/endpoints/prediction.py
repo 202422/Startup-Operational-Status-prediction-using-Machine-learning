@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from app.models.schema import StartupStatusRequest, StartupStatusResponse
-from app.services.preprocess_prediction import predict_process
+from models.schema import StartupStatusRequest, StartupStatusResponse
+from services.preprocess_prediction import predict_process
 
 router = APIRouter()
 

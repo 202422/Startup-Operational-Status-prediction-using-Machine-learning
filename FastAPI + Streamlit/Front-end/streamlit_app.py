@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # FastAPI endpoint
-API_URL = "http://127.0.0.1:8000/api/predict"
+API_URL = "http://backend:8000/api/predict"
 
 st.set_page_config(page_title="Startup Status Prediction", layout="centered")
 

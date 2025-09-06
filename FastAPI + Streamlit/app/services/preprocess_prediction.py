@@ -17,15 +17,15 @@ def predict_process(data: dict):
         df_input[col] = np.log1p(df_input[col])
 
 
-    interaction_term = joblib.load("app/models/interaction_term.pkl")
+    interaction_term = joblib.load("models/interaction_term.pkl")
 
-    model = joblib.load("app/models/Ada_Boost_Multiclass.pkl")
+    model = joblib.load("models/Ada_Boost_Multiclass.pkl")
 
-    target_encoder = joblib.load("app/models/label_encod_Target.pkl")
+    target_encoder = joblib.load("models/label_encod_Target.pkl")
 
-    one_hot_encod = joblib.load("app/models/one_hot_encod.pkl")
+    one_hot_encod = joblib.load("models/one_hot_encod.pkl")
 
-    scaler = joblib.load("app/models/standard_scaler.pkl")
+    scaler = joblib.load("models/standard_scaler.pkl")
 
     scaler_df = scaler.transform(df_input[num_feat])
 
